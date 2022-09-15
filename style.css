@@ -1,0 +1,74 @@
+body{
+  background: url(background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.contenitore{
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 2.5%;
+  border-radius: 2%
+}
+header{
+  text-align: center;
+}
+header > img{
+  width: 20%;
+  margin-top: 10%;
+}
+header > h1{
+  color: #00dd00;
+}
+nav{
+  background-color: #00dd00;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+
+}
+.lista-monopattini{
+  width: 85%;
+  margin: auto;
+  padding-bottom: 7%;
+}
+.monopattini > input, .monopattini> h2{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.monopattini > h2{
+  font-weight: normal;
+}
+input[type=checkbox]{
+  vertical-align: middle;
+  position: relative;
+  bottom:3px;
+}
+.monopattini> p, .monopattini> span{
+  font-weight: lighter;
+}
+p:before {
+  content: "\27FC";
+  font-size: 15px;
+}
+#CaricaGino{
+  height: 35px;
+  width: 27%;
+  border-radius: 6px;
+  background-color: #F4B453;
+}
+#CaricaMike{
+  height: 35px;
+  width: 51%;
+  border-radius: 6px;
+  margin-top: 3px;
+  background-color: #1dc21d;
+}
+#CaricaFede{
+  height: 35px;
+  width: 13%;
+  border-radius: 6px;
+  margin-top: 3px;
+  background-color: #be4141;
+}
